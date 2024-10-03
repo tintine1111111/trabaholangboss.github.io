@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eff7ff;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filters button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #0080ff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.job-listings {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.job-listings h2 {
+    margin-left: 20px;
+}
+
+.job-card {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.job-card img {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.job-info {
+    flex: 1;
+}
+
+.job-info h3 {
+    margin: 5px 0;
+}
+
+.job-info button {
+    background-color: #006cdf;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0;
+}
+
+footer button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}

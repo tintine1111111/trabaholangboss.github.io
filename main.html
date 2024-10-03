@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabahanap - Find Your Next Job</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Find your next job</h1>
+        <button onclick="logout()">Log Out</button>
+    </header>
+
+    <script>
+        function logout() {
+            // Clear any user session data here
+            // Redirect to login page
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <div class="filters">
+        <button>All</button>
+        <button>Remote</button>
+        <button>On-site</button>
+        <button>Full-time</button>
+        <button>Part-time</button>
+        <button>Contract</button>
+        <button>Internship</button>
+        <button>Temporary</button>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search job title or company">
+    </div>
+
+    <section class="job-listings">
+        <h2>Featured jobs</h2>
+
+        <div class="job-card">
+            <img src="image1.jpg" alt="Job Image">
+            <div class="job-info">
+                <p>Full-time • Remote OK</p>
+                <h3>Product Designer</h3>
+                <p>Loom</p>
+                <button>View job</button>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <img src="image2.jpg" alt="Job Image">
+            <div class="job-info">
+                <p>Full-time • Remote OK</p>
+                <h3>Senior Product Designer</h3>
+                <p>Loom</p>
+                <button>View job</button>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <img src="image3.jpg" alt="Job Image">
+            <div class="job-info">
+                <p>Full-time • Remote OK</p>
+                <h3>Product Designer</h3>
+                <p>Loom</p>
+                <button>View job</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <button>Load more</button>
+    </footer>
+</body>
+</html>
